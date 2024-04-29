@@ -1,232 +1,253 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/220c81f842.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-}
-
-/* Malcom Lismore Photography */
-.text {
-  color: #f2f2f2;
-  font-size: 40px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 300px;
-  width: 100%;
-  text-align: Left;
-}
-
-.text1 {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 210px;
-  width: 100%;
-  text-align: Left;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
-
-* {box-sizing: border-box;}
-
-body { 
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.header {
-  overflow: hidden;
-  background-color: #ffffff;
-  padding: 20px 10px;
-}
-
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
-}
-
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-  width:150px;
-  height:60px;
-}
-
-.header a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
-.header-right {
-  float: right;
-}
-
-@media screen and (max-width: 100%) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .header-right {
-    float: none;
-  }
-}
-
-.slideshow-container .btn {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-  
-}
-
-.slideshow-container .btn:hover {
-  background-color: black;
-}
-
-</style>
+	<title>Malcolm Lismore | Freelance Photographer</title>
 </head>
 <body>
 
-<table>
-<tr>
-<div class="header">
-  <a href="index.html" class="logo"><img src="images/logo.png" style="width:100%"></a>
-  <div class="header-right">
-    <a class="active" href="index.html">Home</a>
-    <a href="About.html">About</a>
-    <a href="#Services">Services</a>
-    <a href="#ExploreMore">Explore More</a>
-    <a href="#Gallery">Gallery</a>
-    <a href="#Contact">Contact</a>
-  </div>
-</div>
-</tr>
+	<!----Navigation Section--------->
 
-<tr>
-<td rowspan="2">
-  <div class="text">
-  <b>Malcom Lismore Photography</b><br>
-  </div>
-    <p class="text1">Welcome to Malcolm Lismore Photography, where the wild beauty of Scotland meets artistic vision. Explore stunning landscapes, captivating wildlife, and the essence of coastal life through Malcolm's lens. Whether you seek to immortalize your special moments or capture the untamed spirit of nature, Malcolm is here to bring your vision to life. Let's embark on a journey of visual storytelling together.</p> <br>
-    <button class="btn">Call-to-Action</button>
-</td>
-<td>
-  <div class="slideshow-container">  
-    <div class="mySlides fade">
-      <img src="images/img_nature_wide.jpg" style="width:100%">
-    </div>
+	<div class="navbar"> 
+		<div class="max-width">
+			<div class="logo">
+				<a href="D:\2nd semester website\web pages\index.html">
+					<i class="fa-solid fa-camera"></i>
+					<span>Malcolm Lismore</span></a>
+			</div>
+			<ul class="menu">
+				<li><a href="D:\2nd semester website\web pages\index.html">Home</a></li>
+				<li><a href="D:\2nd semester website\web pages\about.html">About</a></li>
+				<li><a href="D:\2nd semester website\web pages\gallery.html">Gallery</a></li>
+				<li><a href="D:\2nd semester website\web pages\prices.html">Prices</a></li>
+				<li><a href="D:\2nd semester website\web pages\contact.html">Contact</a></li>
+			</ul>
+			<div class="menu-btn">
+				<i class="fas fa-bars"></i>
+			</div>	
+		</div>
+	</div>
 
-    <div class="mySlides fade">
-      <img src="images/img_snow_wide.jpg" style="width:100%">
-    </div>
+	<!--Home section-->
 
-    <div class="mySlides fade">
-      <img src="images/img_mountains_wide.jpg" style="width:100%">
-    </div>
-</td>
-</tr>
-<tr>
-  <td>
-    <div style="text-align:center">
-      <span class="dot"></span> 
-      <span class="dot"></span> 
-      <span class="dot"></span> 
-    </div>
-  </td>
-</tr>
-</table>
-<script>
-let slideIndex = 0;
-showSlides();
+<section class="home">
+	<div class="max-width">
+		<div class="text">
+			<div class="text-1">Meet</div>
+			<div class="text-2">Professional</div>
+			<div class="text-3">Photographer</div>	
+		</div>
+	</div>
+</section>
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-</script>
+<!-- Featured sections -->
 
+<section class="featured">
+	<h2 class="title">Latest photoshoot</h2>
+	<div class="container">
+		<!-- Slider main container -->
+		<div class="swiper">
+		  	<!-- Additional required wrapper -->
+		  <div class="swiper-wrapper">
+		    	<!-- Slides -->
+		    <div class="swiper-slide"><img src="D:\2nd semester website\web pages\Scotland pics\wildlife\mountain-landscape-scotland-uk-europe-296191506.webp" alt="wedding photoshoot"> </div>
+		    <div class="swiper-slide"><img src="D:\2nd semester website\web pages\Scotland pics\wildlife\wolves-snow-8292206.webp" alt="wedding photoshoot"> </div>
+		    <div class="swiper-slide"><img src="D:\2nd semester website\web pages\Scotland pics\weddings\happy-wedding-couple-bride-groom-posing-botanical-park-happy-wedding-couple-bride-groom-posing-botanical-park-103944906.webp" alt="wedding photoshoot"> </div>
+		    <div class="swiper-slide"><img src="D:\2nd semester website\web pages\Scotland pics\special events\special events8.jpg" alt="wedding photoshoot"> </div>
+		    <div class="swiper-slide"><img src="D:\2nd semester website\web pages\Scotland pics\portraits\16.jpg" alt="wedding photoshoot"> </div>
+		  </div>
+		  		<!-- If we need pagination -->
+		  <div class="swiper-pagination"></div>
+
+		  	<!-- If we need navigation buttons -->
+		  <div class="swiper-button-prev"></div>
+		  <div class="swiper-button-next"></div>
+
+		</div>
+	</div>
+</section>
+
+<!-- Landscape Section -->
+
+<section class="landscape">
+	<a href="D:\2nd semester website\web pages\Landscape.html">
+	<h2 class="title">Landscape photos</h2>
+	<div class="max-width">
+		<div class="card">
+			<img src="D:\2nd semester website\web pages\Scotland pics\wildlife\mountain-landscape-scotland-uk-europe-296191394.webp" alt="land1">
+			<img src="D:\2nd semester website\web pages\Scotland pics\wildlife\mountain-landscape-scotland-uk-europe-296191460.webp" alt="land2">
+			<img src="D:\2nd semester website\web pages\Scotland pics\wildlife\mountain-landscape-scotland-uk-europe-296191506.webp" alt="land3">	
+		</div>
+	</div>
+	<div class="max-width">
+		<div class="card">
+			<img src="D:\2nd semester website\web pages\Scotland pics\wildlife\mountain-landscape-scotland-uk-europe-296191538.webp" alt="land4">
+			<img src="D:\2nd semester website\web pages\Scotland pics\wildlife\scotland-uk-europe-mountain-landscape-292300133.webp" alt="land5">
+			<img src="D:\2nd semester website\web pages\Scotland pics\wildlife\scotland-uk-europe-mountain-landscape-292300190.webp" alt="land6">	
+		</div>
+	</div></a>
+</section>
+
+
+<!-- Wildlife section -->
+
+<section class="wildlife">
+	<a href="D:\2nd semester website\web pages\Wildlife.html">
+	<h2 class="title">Wildlife photos</h2>
+	<div class="max-width">
+		<div class="card">
+			<img src="D:\2nd semester website\web pages\Scotland pics\wildlife\coastal birds2.jpg" alt="wild1">
+			<img src="D:\2nd semester website\web pages\Scotland pics\wildlife\horse-portrait-3774356.webp" alt="wild2">
+			<img src="D:\2nd semester website\web pages\Scotland pics\wildlife\wolf-snow-8431115.webp" alt="wild3">	
+		</div>
+	</div>
+	<div class="max-width">
+		<div class="card">
+			<img src="D:\2nd semester website\web pages\Scotland pics\wildlife\highland-cow-4733594.webp" alt="wild4">
+			<img src="D:\2nd semester website\web pages\Scotland pics\wildlife\coastal birds 1.jpg" alt="wild5">
+			<img src="D:\2nd semester website\web pages\Scotland pics\wildlife\horse-portrait-86305156.webp" alt="wild6">	
+		</div>
+	</div></a>
+</section>
+
+<!-- Wedding section -->
+
+<section class="wildlife">
+	<a href="D:\2nd semester website\web pages\Wedding.html">
+	<h2 class="title">Wedding photos</h2>
+	<div class="max-width">
+		<div class="card">
+			<img src="D:\2nd semester website\web pages\Scotland pics\weddings\beautiful-wedding-couple-bride-groom-love-background-mountains-145248974.webp" alt="wedd1">
+			<img src="D:\2nd semester website\web pages\Scotland pics\weddings\happy-beautiful-wedding-couple-bride-groom-day-outdoors-mountains-rock-marriage-nature-soft-sunny-lights-206493847.webp" alt="wedd2">
+			<img src="D:\2nd semester website\web pages\Scotland pics\weddings\happy-beautiful-wedding-couple-bride-groom-wedding-day-outdoors-mountains-rock-happy-marriage-couple-92188056.webp" alt="wedd3">	
+		</div>
+	</div>
+	<div class="max-width">
+		<div class="card">
+			<img src="D:\2nd semester website\web pages\Scotland pics\weddings\lovely-happy-wedding-couple-bride-long-white-dress-138119500.webp" alt="wedd4">
+			<img src="D:\2nd semester website\web pages\Scotland pics\weddings\lovely-wedding-couple-bride-groom-posing-field-sunset-75740685.webp" alt="wedd5">
+			<img src="D:\2nd semester website\web pages\Scotland pics\weddings\lovely-wedding-couple-bride-groom-posing-field-sunset-lovely-wedding-couple-bride-groom-posing-field-135618300.webp" alt="wedd6">	
+		</div>
+	</div></a>
+</section>
+
+<!-- Event section -->
+
+<section class="event">
+	<a href="D:\2nd semester website\web pages\Event.html">
+	<h2 class="title">Special Event photos</h2>
+	<div class="max-width">
+		<div class="card">
+			<img src="D:\2nd semester website\web pages\Scotland pics\special events\beautiful-luxury-flowers-settings-special-events-hol-beautiful-luxury-flowers-settings-special-events-123275887.webp" alt="event1">
+			<img src="D:\2nd semester website\web pages\Scotland pics\special events\beautiful-luxury-flowers-settings-special-events-hol-beautiful-luxury-flowers-settings-special-events-123275974.webp" alt="event2">
+			<img src="D:\2nd semester website\web pages\Scotland pics\special events\beautiful-luxury-flowers-settings-special-events-hol-holidays-props-weddings-birthdays-celebrations-123275864.webp" alt="event3">	
+		</div>
+	</div>
+	<div class="max-width">
+		<div class="card">
+			<img src="D:\2nd semester website\web pages\Scotland pics\special events\beautiful-luxury-flowers-settings-special-events-holidays-props-weddings-birthdays-celebrations-beautiful-123276690.webp" alt="event4">
+			<img src="D:\2nd semester website\web pages\Scotland pics\special events\special events.jpg" alt="event5">
+			<img src="D:\2nd semester website\web pages\Scotland pics\special events\special events1.jpg" alt="event6">	
+		</div>
+	</div></a>
+</section>
+
+<!-- Portrait section -->
+
+<section class="portraits">
+	<a href="D:\2nd semester website\web pages\Portrait.html">
+	<h2 class="title">Portraits shoots</h2>
+	<div class="portrait-2">
+		<div class="card">
+			<img src="D:\2nd semester website\web pages\Scotland pics\portraits\1.jpg" alt="port1">
+			<img src="D:\2nd semester website\web pages\Scotland pics\portraits\2.jpg" alt="port2">
+			<img src="D:\2nd semester website\web pages\Scotland pics\portraits\3.jpg" alt="port3">	
+		</div>
+	</div>
+	<div class="portrait-2">
+		<div class="card">
+			<img src="D:\2nd semester website\web pages\Scotland pics\portraits\4.jpg" alt="port4">
+			<img src="D:\2nd semester website\web pages\Scotland pics\portraits\5.jpg" alt="port5">
+			<img src="D:\2nd semester website\web pages\Scotland pics\portraits\6.jpg" alt="port6">	
+		</div>
+	</div></a>
+</section>
+
+<!-- Services Section -->
+
+<section class="services">
+	<h2 class="title">Our Professional Services</h2>
+	<div class="max-width">
+		<div class="card">
+			<div class="left">
+				<img src="D:\2nd semester website\web pages\Scotland pics\portraits\artist.png" alt="artist">
+			</div>
+			<div class="right">
+				<h3>Services</h3>
+				<p>
+					<b>Malcolm Lismore,</b> a skilled photographer based in the picturesque landscapes of Scotland, offers a diverse range of services capturing the essence of various moments through his lens. Specializing in Landscape, Wildlife, Wedding, Special Event, and Portrait photography, Malcolm brings a unique perspective and artistic flair to each of his projects.<br><br>
+
+1. <b>Landscape Photography:</b>
+   Malcolm's expertise in landscape photography allows him to showcase the breathtaking beauty of Scotland's natural scenery. From rolling hills to serene lochs, his images capture the essence of the landscape in every season, providing clients with stunning, timeless visuals.<br><br>
+
+2. <b>Wildlife Photography:</b>
+   As an avid nature enthusiast, Malcolm excels in wildlife photography, immortalizing the diverse fauna of Scotland. His patience and keen eye allow him to capture the grace and beauty of various creatures in their natural habitats, creating evocative and captivating images.<br><br>
+
+3. <b>Wedding Photography:</b>
+   Malcolm specializes in documenting the most special day in a couple's life – their wedding. With a keen sense of storytelling, he captures the genuine emotions, candid moments, and intricate details that make each wedding unique. His goal is to provide couples with a beautiful visual narrative of their love story.<br><br>
+
+4. <b>Special Event Photography:</b>
+   Whether it's a corporate gathering, a family reunion, or a milestone celebration, Malcolm is adept at capturing the essence of special events. His unobtrusive approach ensures that he documents the significant moments without disrupting the flow of the occasion, resulting in a compelling collection of memories.<br><br>
+
+5. <b>Portrait Photography:</b>
+   Malcolm's talent extends to the realm of portrait photography, where he skillfully captures the personality and essence of his subjects. Whether it's an individual portrait, family photo, or professional headshot, his artistic vision ensures a striking and personalized representation of each person.<br><br>
+
+Malcolm Lismore's photography services are characterized by a commitment to professionalism, attention to detail, and a passion for storytelling through visual imagery. Clients seeking a photographer in Scotland can rely on Malcolm to deliver high-quality, emotive photographs that capture the spirit of the moment, making each image a cherished keepsake.
+				</p>
+				<a href="D:\2nd semester website\web pages\contact.html">Book our services now &#8594;</a>
+			</div>	
+		</div>
+	</div>
+</section>
+
+<!-- Footer -->
+<footer>
+	<span>Designed by <a href="#"> | JAYODA KULATUNGA E189577 996830454V | </a> copyright <i class="fa fa-copyright">2024. All rights reserved</i>
+	 </span>
+</footer>
+
+
+	<script src="main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script>
+		const swiper = new Swiper('.swiper', {
+		  // Optional parameters
+		  loop: true,
+		  autoplay:{
+		  	delay: 3000,
+		  	disableOnInteraction: false,
+		  },
+
+
+		  // If we need pagination
+		  pagination: {
+		    el: '.swiper-pagination',
+		    clickable: true,
+		  },
+
+		  // Navigation arrows
+		  navigation: {
+		    nextEl: '.swiper-button-next',
+		    prevEl: '.swiper-button-prev',
+		  },		 
+		});
+	</script>
 </body>
-</html> 
+</html>
